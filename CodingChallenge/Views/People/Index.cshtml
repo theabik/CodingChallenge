@@ -1,0 +1,20 @@
+﻿@using CodingChallenge.Models;
+@model PetsViewModel
+@{
+    ViewBag.Title = "Results";
+}
+
+<h2>Results:</h2>
+
+<div>
+    @foreach (var group in Model.PetsList)
+    {
+        @Html.Encode(group.GetType().GetProperty("Key").GetValue(group, null))
+        <ul>
+            @foreach (var item in group.GetType().GetProperty("Items").GetValue(group, null))
+            {
+                <li>@item.GetType().GetProperty("PetName").GetValue(item, null)</li>
+            }
+        </ul>
+    }
+</div>
