@@ -15,6 +15,8 @@ ASP.NET 4.5
 
 The deployment can be done using normal MVC website installation using IIS. No extra installation are required.
 
+The result page can be navigated by clicking button 'View all pets with owner's gender' at home page or clicking menu link 'Pets'
+
 ## Authors
 
 * **Keshab Pandey** 
