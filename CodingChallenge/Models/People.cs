@@ -35,7 +35,7 @@ namespace CodingChallenge.Models
             return output;
         }
 
-        internal static PetsViewModel GetOrderedPeopleWithPets()
+        internal static PetsViewModel GetOrderedPetsWithOwnersGender()
         {
             var viewModel = new PetsViewModel();
             try

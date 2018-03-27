@@ -3,12 +3,12 @@ using System.Web.Mvc;
 
 namespace CodingChallenge.Controllers
 {
-    public class PeopleController : Controller
+    public class PetsController : Controller
     {
         // GET: People
         public ActionResult Index()
         {
-            var model = People.GetOrderedPeopleWithPets();
+            var model = People.GetOrderedPetsWithOwnersGender();
             return View(model);
         }
     }

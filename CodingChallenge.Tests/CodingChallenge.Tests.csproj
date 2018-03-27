@@ -81,8 +81,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\PeopleControllerTests.cs" />
-    <Compile Include="Model\PeopleTests.cs" />
+    <Compile Include="Controllers\PetsControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
